@@ -1,5 +1,5 @@
-import groupImports from "./lib/rules/group-imports";
-import namedImports from "./lib/rules/named-imports";
+import groupImports from "./lib/rules/group-imports.js";
+import namedImports from "./lib/rules/named-imports.js";
 
 export default {
   meta: {
