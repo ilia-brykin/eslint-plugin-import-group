@@ -9,6 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Added
 
-- Initial release of `eslint-plugin-group-imports`.
+- Initial release of `eslint-plugin-import-group`.
 - Added `group-imports` rule to enforce import grouping based on user-defined patterns.
 - Added `named-imports` rule to sort named imports alphabetically and format them correctly.

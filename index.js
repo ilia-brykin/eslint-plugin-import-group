@@ -3,7 +3,7 @@ import namedImports from "./lib/rules/named-imports";
 
 export default {
   meta: {
-    name: "eslint-plugin-group-imports",
+    name: "eslint-plugin-import-group",
     version: "1.0.0",
   },
   rules: {

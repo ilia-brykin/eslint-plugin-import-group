@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-group-imports",
+  "name": "eslint-plugin-import-group",
   "version": "1.0.0",
   "description": "ESLint plugin for enforcing import grouping and named import sorting",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ilia-brykin/eslint-plugin-group-imports.git"
+    "url": "git+https://github.com/ilia-brykin/eslint-plugin-import-group.git"
   },
   "keywords": [
     "eslint",
@@ -19,9 +19,9 @@
   "author": "Ilia Brykin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ilia-brykin/eslint-plugin-group-imports/issues"
+    "url": "https://github.com/ilia-brykin/eslint-plugin-import-group/issues"
   },
-  "homepage": "https://github.com/ilia-brykin/eslint-plugin-group-imports#readme",
+  "homepage": "https://github.com/ilia-brykin/eslint-plugin-import-group#readme",
   "dependencies": {
     "lodash-es": "4.17.21"
   }

@@ -1,20 +1,20 @@
-# eslint-plugin-group-imports
+# eslint-plugin-import-group
 
 ESLint plugin for enforcing import grouping and named import sorting.
 
 ## Installation
 
-You can install `eslint-plugin-group-imports` using npm, yarn, or pnpm:
+You can install `eslint-plugin-import-group` using npm, yarn, or pnpm:
 
 ```bash
 # Using npm
-$ npm install eslint-plugin-group-imports --save-dev
+$ npm install eslint-plugin-import-group --save-dev
 
 # Using yarn
-$ yarn add eslint-plugin-group-imports --dev
+$ yarn add eslint-plugin-import-group --dev
 
 # Using pnpm
-$ pnpm add eslint-plugin-group-imports --save-dev
+$ pnpm add eslint-plugin-import-group --save-dev
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ $ pnpm add eslint-plugin-group-imports --save-dev
 #### `eslint.config.js` or `eslint.config.mjs`
 
 ```js
-import groupImportsPlugin from "eslint-plugin-group-imports";
+import groupImportsPlugin from "eslint-plugin-import-group";
 
 export default {
   plugins: {
