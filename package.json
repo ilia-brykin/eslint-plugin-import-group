@@ -25,6 +25,7 @@
   "bugs": {
     "url": "https://github.com/ilia-brykin/eslint-plugin-import-group/issues"
   },
+  "type": "module",
   "exports": {
     ".": {
       "import": "./dist/index.es.js",
