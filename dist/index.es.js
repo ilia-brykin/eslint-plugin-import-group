@@ -1034,7 +1034,7 @@ const Ui = {
 }, Hi = {
   meta: {
     name: "eslint-plugin-import-group",
-    version: "1.0.1"
+    version: "1.1.0"
   },
   rules: {
     "group-imports": Bi,
