@@ -2,16 +2,20 @@
   "name": "eslint-plugin-import-group",
   "version": "1.0.1",
   "description": "ESLint plugin for enforcing import grouping and named import sorting",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ilia-brykin/eslint-plugin-import-group.git"
   },
+  "scripts": {
+    "build": "vite build --config vite.config.mjs",
+    "pub": "npm publish --scope=@npm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [
     "eslint",
+    "eslintplugin",
+    "eslint-plugin",
     "plugin",
     "imports",
     "sorting"
@@ -21,8 +25,29 @@
   "bugs": {
     "url": "https://github.com/ilia-brykin/eslint-plugin-import-group/issues"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    },
+    "./*": "./dist/*"
+  },
   "homepage": "https://github.com/ilia-brykin/eslint-plugin-import-group#readme",
   "dependencies": {
     "lodash-es": "4.17.21"
-  }
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ]
 }
