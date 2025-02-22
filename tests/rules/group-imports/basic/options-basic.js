@@ -1,4 +1,4 @@
-export const options = [{
+export const optionsBasic = [{
   groups: [
     {
       name: "Core Imports",

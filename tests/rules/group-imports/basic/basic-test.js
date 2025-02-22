@@ -7,15 +7,15 @@ import {
   vueAndComponentsValid,
   vueAlohaAndComponentsValid,
   vueAlohaComponentsAndRestValid,
-} from "./valid-code.js";
+} from "./valid-code-basic.js";
 import {
   onlyComponentsInvalid,
   vueAndComponentsInvalid,
   vueAlohaAndComponentsInvalid,
-} from "./Invalid-code.js";
+} from "./invalid-code-basic.js";
 import {
-  options,
-} from "./options.js";
+  optionsBasic,
+} from "./options-basic.js";
 
 const ruleTester = new RuleTester({
   languageOptions: { ecmaVersion: 2015 }
@@ -30,19 +30,19 @@ ruleTester.run(
     valid: [
       {
         code: onlyComponentsValid,
-        options: options,
+        options: optionsBasic,
       },
       {
         code: vueAndComponentsValid,
-        options: options,
+        options: optionsBasic,
       },
       {
         code: vueAlohaAndComponentsValid,
-        options: options,
+        options: optionsBasic,
       },
       {
         code: vueAlohaComponentsAndRestValid,
-        options: options,
+        options: optionsBasic,
       },
     ],
 
@@ -52,19 +52,19 @@ ruleTester.run(
         code: onlyComponentsInvalid.code,
         output: onlyComponentsInvalid.output,
         errors: [{ messageId: onlyComponentsInvalid.messageId }],
-        options: options,
+        options: optionsBasic,
       },
       {
         code: vueAndComponentsInvalid.code,
         output: vueAndComponentsInvalid.output,
         errors: [{ messageId: vueAndComponentsInvalid.messageId }],
-        options: options,
+        options: optionsBasic,
       },
       {
         code: vueAlohaAndComponentsInvalid.code,
         output: vueAlohaAndComponentsInvalid.output,
         errors: [{ messageId: vueAlohaAndComponentsInvalid.messageId }],
-        options: options,
+        options: optionsBasic,
       },
     ],
   }
