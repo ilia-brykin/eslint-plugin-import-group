@@ -38,6 +38,7 @@
     "lodash-es": "4.17.21"
   },
   "devDependencies": {
+    "eslint": "9.20.1",
     "vite": "^6.1.0"
   },
   "peerDependencies": {
