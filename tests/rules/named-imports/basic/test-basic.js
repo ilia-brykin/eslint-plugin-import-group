@@ -17,6 +17,7 @@ const ruleTester = new RuleTester({
   languageOptions: { ecmaVersion: 2015 }
 });
 
+console.log("<< named-imports >>");
 ruleTester.run(
   "named-imports",
   namedImports,

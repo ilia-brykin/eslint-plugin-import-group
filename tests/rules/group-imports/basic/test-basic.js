@@ -21,6 +21,7 @@ const ruleTester = new RuleTester({
   languageOptions: { ecmaVersion: 2015 }
 });
 
+console.log("<< group-imports >>");
 // Throws error if the tests in ruleTester.run() do not pass
 ruleTester.run(
   "group-imports", // rule name
