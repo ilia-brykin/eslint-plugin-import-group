@@ -1,4 +1,4 @@
-export const optionsemptyLinesBetweenGroups0 = [{
+export const optionsEmptyLinesBetweenGroups0 = [{
   groups: [
     {
       name: "Core Imports",
@@ -34,7 +34,7 @@ export const optionsemptyLinesBetweenGroups0 = [{
   emptyLinesBetweenGroups: 0,
 }];
 
-export const optionsemptyLinesBetweenGroups1 = [{
+export const optionsEmptyLinesBetweenGroups1 = [{
   groups: [
     {
       name: "Core Imports",
@@ -70,7 +70,7 @@ export const optionsemptyLinesBetweenGroups1 = [{
   emptyLinesBetweenGroups: 1,
 }];
 
-export const optionsemptyLinesBetweenGroups2 = [{
+export const optionsEmptyLinesBetweenGroups2 = [{
   groups: [
     {
       name: "Core Imports",
@@ -106,7 +106,7 @@ export const optionsemptyLinesBetweenGroups2 = [{
   emptyLinesBetweenGroups: 2,
 }];
 
-export const optionsemptyLinesBetweenGroups3 = [{
+export const optionsEmptyLinesBetweenGroups3 = [{
   groups: [
     {
       name: "Core Imports",
