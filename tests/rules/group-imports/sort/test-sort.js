@@ -50,4 +50,4 @@ ruleTester.run(
   }
 );
 
-console.log("All tests passed!");
+console.log("All tests 'sort' passed!");
