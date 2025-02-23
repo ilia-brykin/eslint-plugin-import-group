@@ -28,5 +28,5 @@ export const optionsIncludes = [{
       ],
     },
   ],
-  newlineBetweenGroups: 1,
+  emptyLinesBetweenGroups: 1,
 }];

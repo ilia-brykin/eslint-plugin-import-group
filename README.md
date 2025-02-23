@@ -60,7 +60,7 @@ export default {
           ],
         },
       ],
-      newlineBetweenGroups: 1,
+      emptyLinesBetweenGroups: 1,
     }],
   },
 };
@@ -103,7 +103,7 @@ This rule enforces import grouping based on user-defined patterns.
     },
   ]
   ```
-- `newlineBetweenGroups` (integer, 0-5): Number of blank lines between groups.
+- `emptyLinesBetweenGroups` (integer, 0-5): Number of blank lines between groups.
 
 #### **Example**
 ##### ✅ **Correct Code**

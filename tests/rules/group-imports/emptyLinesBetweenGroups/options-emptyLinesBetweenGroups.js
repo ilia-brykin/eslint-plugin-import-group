@@ -1,4 +1,4 @@
-export const optionsNewlineBetweenGroups0 = [{
+export const optionsemptyLinesBetweenGroups0 = [{
   groups: [
     {
       name: "Core Imports",
@@ -31,10 +31,10 @@ export const optionsNewlineBetweenGroups0 = [{
       ],
     },
   ],
-  newlineBetweenGroups: 0,
+  emptyLinesBetweenGroups: 0,
 }];
 
-export const optionsNewlineBetweenGroups1 = [{
+export const optionsemptyLinesBetweenGroups1 = [{
   groups: [
     {
       name: "Core Imports",
@@ -67,10 +67,10 @@ export const optionsNewlineBetweenGroups1 = [{
       ],
     },
   ],
-  newlineBetweenGroups: 1,
+  emptyLinesBetweenGroups: 1,
 }];
 
-export const optionsNewlineBetweenGroups2 = [{
+export const optionsemptyLinesBetweenGroups2 = [{
   groups: [
     {
       name: "Core Imports",
@@ -103,10 +103,10 @@ export const optionsNewlineBetweenGroups2 = [{
       ],
     },
   ],
-  newlineBetweenGroups: 2,
+  emptyLinesBetweenGroups: 2,
 }];
 
-export const optionsNewlineBetweenGroups3 = [{
+export const optionsemptyLinesBetweenGroups3 = [{
   groups: [
     {
       name: "Core Imports",
@@ -139,5 +139,5 @@ export const optionsNewlineBetweenGroups3 = [{
       ],
     },
   ],
-  newlineBetweenGroups: 3,
+  emptyLinesBetweenGroups: 3,
 }];

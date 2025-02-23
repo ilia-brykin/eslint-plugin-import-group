@@ -36,5 +36,5 @@ export const optionsBasic = [{
       ],
     },
   ],
-  newlineBetweenGroups: 1,
+  emptyLinesBetweenGroups: 1,
 }];
