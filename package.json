@@ -10,7 +10,7 @@
   "scripts": {
     "build": "vite build --config vite.config.mjs",
     "pub": "npm publish --scope=@npm",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./tests/rules/index.js"
   },
   "keywords": [
     "eslint",
