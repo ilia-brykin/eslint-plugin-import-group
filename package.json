@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-import-group",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "ESLint plugin for enforcing import grouping and named import sorting",
   "main": "lib/index.js",
   "repository": {

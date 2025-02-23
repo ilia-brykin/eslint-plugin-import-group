@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.0.0] - 2025-02-23
+
+### Added
+- Added tests.
+- Added the `indent` parameter to the `named-imports` rule.
+- Added the `includes`, `emptyLinesBeforeGroup`, and `preserveNonImportCode` parameters to the `group-imports` rule.
+
+### Changed
+- Renamed `newlineBetweenGroups` to `emptyLinesBetweenGroups` in the `group-imports` rule.
+
+### Fixed
+- Fixed various bugs.
+
+### Documentation
+- Expanded documentation.
+
 ## [1.1.1] - 2025-02-18
 
 ### Added
