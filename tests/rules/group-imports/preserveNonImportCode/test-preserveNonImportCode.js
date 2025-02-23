@@ -7,6 +7,7 @@ import {
 } from "./valid-code-preserveNonImportCode.js";
 import {
   preserveNonImportCodeTrueInvalid,
+  preserveNonImportCodeTrue2Invalid,
   preserveNonImportCodeFalseInvalid,
 } from "./invalid-code-preserveNonImportCode.js";
 import {
@@ -33,6 +34,12 @@ ruleTester.run(
         code: preserveNonImportCodeTrueInvalid.code,
         output: preserveNonImportCodeTrueInvalid.output,
         errors: [{ messageId: preserveNonImportCodeTrueInvalid.messageId }],
+        options: optionsPreserveNonImportCodeTrue,
+      },
+      {
+        code: preserveNonImportCodeTrue2Invalid.code,
+        output: preserveNonImportCodeTrue2Invalid.output,
+        errors: [{ messageId: preserveNonImportCodeTrue2Invalid.messageId }],
         options: optionsPreserveNonImportCodeTrue,
       },
       {
