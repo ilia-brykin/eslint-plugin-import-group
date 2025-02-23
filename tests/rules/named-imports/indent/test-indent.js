@@ -34,7 +34,6 @@ const ruleTester = new RuleTester({
   languageOptions: { ecmaVersion: 2015 }
 });
 
-console.log("<< named-imports >>");
 ruleTester.run(
   "named-imports",
   namedImports,
@@ -116,4 +115,4 @@ ruleTester.run(
   }
 );
 
-console.log("All tests 'basic' passed!");
+console.log("All tests 'indent' passed!");
