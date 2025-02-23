@@ -1,6 +1,6 @@
 # group-imports
 
-## Rule Details
+## Details
 The **group-imports** rule enforces a specific grouping and ordering of your import statements. It lets you define custom groups based on patterns (exact match, regular expressions, or substring inclusion) and control how imports within each group are sorted. Additionally, you can configure the number of blank lines between groups and choose whether to preserve any non-import code that may appear among your import declarations.
 
 ***
@@ -19,6 +19,13 @@ The **group-imports** rule enforces a specific grouping and ordering of your imp
   - `emptyLinesBeforeGroup` (`integer`): If specified, it overrides the global `emptyLinesBetweenGroups` setting (see below) for this group by inserting the defined number of **blank lines before the group** (except for the first group).
 - `emptyLinesBetweenGroups` (`integer`): The default number of **empty lines** to insert between groups if a group does not define its own `emptyLinesBeforeGroup`. Valid values are between `0` and `5` (inclusive). Example: Setting `"emptyLinesBetweenGroups": 1` will insert one blank line between each group.
 - `preserveNonImportCode` (`boolean`): When set to `true`, any **non-import code** that appears between the first and last import declaration is preserved and appended **after the sorted imports**. If set to `false` (the default), **only the import declarations** are re-ordered and any **other code is removed** from the import block.
+***
+
+## Usage
+
+To enable the **group-imports** rule, add it to the ESLint configuration under the `rules` section of your project’s ESLint config file. Ensure that the `eslint-plugin-import-group` plugin is installed and referenced correctly. The rule can be configured by providing a custom array of groups that define how imports should be classified and ordered.
+
+This rule supports ESLint’s `--fix` flag, which will automatically reorder and group import statements according to your configuration. To prevent conflicts, disable any overlapping rules (such as `import/order`) in your ESLint settings.
 ***
 
 ## Examples
