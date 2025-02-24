@@ -1072,7 +1072,7 @@ const qi = {
 }, Xi = {
   meta: {
     name: "eslint-plugin-import-group",
-    version: "2.0.0"
+    version: "2.0.1"
   },
   rules: {
     "group-imports": Hi,
